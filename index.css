@@ -1,19 +1,10 @@
-* {
-    padding: 0px;
-    margin: 0px;
-}
-
-body {
-
-}
-
 .flex-container-header {
     display: flex;
     background-color: rgba(0, 100, 0, 0.53);
     margin: 0;
     padding-top: 8px;
     flex: 3;
-    gap: 550px;
+    gap: 900px;
 }
 .firstimg {
     height: 100px;
@@ -43,29 +34,33 @@ li {
 .flex-container-two {
      display: flex;
      background-color: rgba(0, 100, 0, 0.53);
-     margin: 0;
      align-items: center;
-     justify-content: space-evenly;
-     padding: 35px;
-     gap:  100px;
+     gap:  20px;
      align-content: stretch;
+     padding: 15px
 }
 .one {
-    padding: 5px;
     display: flex;
     flex-direction: column;
     border: white 3px solid;
-}
-.two img {
-    padding: 10px;
-    height: 100%;
-    width: 100%;
-    padding-right: 400px;
+    margin-right: 400px;
 }
 
+#two img {
+    width: 350px;
+    height: 225px;
+    margin-left: -410px;
+}
+
+.now {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: -80px;
+}
 h2{
     font-size: 30px;
     font-weight: bold;
+    padding-left: 20px;
 }
 
 h3 {
@@ -74,6 +69,7 @@ h3 {
 
 h4 {
     font-size: 12px;
+    padding-left: 20px;
 }
 
 .flex-container-three {
@@ -84,25 +80,25 @@ h4 {
     gap: 40px;
     align-content: center;
 }
-.pic-text-one img {
-    padding: 10px;
-    height: auto;
-    width: 80%;
+img {
+    width: 250px;
+    height: 150px;
+    padding-left: 42%;
 }
-.pic-text-two {
-    padding: 10px;
-    height: 100%;
-    width: 100%;
+
+.cut {
+    padding-left: 79%;
+    font-size: 40px;
 }
-.pic-text-three img {
-    padding: 10px;
-    height: auto;
-    width: 100%;
+
+.edge {
+    padding-left: 77%;
+    font-size: 40px;
 }
-.pic-text-four {
-    padding: 10px;
-    height: 100%;
-    width: 100%;
+
+.hedge, .blow {
+    padding-left: 67%;
+    font-size: 40px;
 }
 
 .flex-container-four {
@@ -113,21 +109,23 @@ h4 {
     font-size: 20px;
     font-style: italic;
     color: aqua;
+    margin-left: -10px;
 }
 
 .flex-container-five {
     display: flex;
     background: round rgb(6, 160, 212) 20px;
     margin: 60px;
-    gap: 325px;
+    gap: 825px;
+    margin-right: 75px;
 }
-.text-one {
+#text-one {
     text-align: flex-start;
-    padding: 10px;
     color: white;
+    padding-left: 20px;
 }
 .button { 
     gap:  45px;
-    padding: 10px;
-    margin: 10px;
+    margin-top: 28px;
+    margin-left: 20px;
 }
